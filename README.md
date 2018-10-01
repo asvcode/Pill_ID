@@ -1,4 +1,4 @@
-# Insight_Project_Framework
+# Pill Identifier
 Framework for machine learning projects at Insight Data Science. 
 
 ## Motivation for this project format:
