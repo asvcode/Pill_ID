@@ -74,8 +74,15 @@ python infer.py
 </div align>
 
 - Results showing most accurate and least accurate yellow pills
+
+## Accurate
 <div align="center">
-  <img src="static/yellow-accurate.png" width="500" height="231">
+  <img src="static/yellow_accurate.png" width="500" height="231">
+</div align>
+
+## Inaccurate
+<div align="center">
+  <img src="static/yellow_inaccurate.png" width="500" height="231">
 </div align>
 
 
