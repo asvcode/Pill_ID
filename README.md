@@ -10,6 +10,10 @@ Project for identifying prescription pills.  Current methods utitilize a drop do
 
 Screenshot from the National Library of Medicine Pillbox pill identifier portal (https://pillbox.nlm.nih.gov/) that shows the current drop down menu for identifying pills.  There is no option for using pictures to help pre-populate the fields.
 
+## Motivation
+
+Patients particularly those over 50 are more likely to be prescribed more pills,have dexterity issues and may also have issues with eyesight.  This project is looking at a way to improve efficiency and accuracy by using images to help pre-populate input fields.
+
 ## Project format:
 
 - **src** : Source code
@@ -38,14 +42,9 @@ git push origin $branch_name
 ```
 
 ## Requisites
-- List all packages and software needed to build the environment
-- This could include cloud command line tools (i.e. gsutil), package managers (i.e. conda), etc.
-```
-# Example
-- A
-- B
-- C
-```
+- Fastai
+- Flask
+- Android Studio
 
 ## Build Environment
 - Include instructions of how to launch scripts in the build subfolder
@@ -61,9 +60,7 @@ git push origin $branch_name
 ```
 
 ## Configs
-- We recommond using either .yaml or .txt for your config files, not .json
-- **DO NOT STORE CREDENTIALS IN THE CONFIG DIRECTORY!!**
-- If credentials are needed, use environment variables or HashiCorp's [Vault](https://www.vaultproject.io/)
+- pillid.yml contains all configuration requirements
 
 
 ## Test
