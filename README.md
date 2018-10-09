@@ -35,60 +35,35 @@ conda env create -f pillid.yml
 - Flask
 - Android Studio
 
-## Build Environment
-- Include instructions of how to launch scripts in the build subfolder
-- Build scripts can include shell scripts or python setup.py files
-- The purpose of these scripts is to build a standalone environment, for running the code in this repository
-- The environment can be for local use, or for use in a cloud environment
-- If using for a cloud environment, commands could include CLI tools from a cloud provider (i.e. gsutil from Google Cloud Platform)
+## Source Code
+- train.py - train the data using the following parameters:
+  - Learning rate of 0.01
+  - Random Dihedral data augmentation
+  - Random Balance=0.2 and Contrast=0.8 data augmentation
+  - dropout = 0.25
+  
 ```
-# Example
-
-# Step 1
-# Step 2
+python train.py
 ```
-
-## Configs
-- pillid.yml contains all configuration requirements
-
 
 ## Test
-- Include instructions for how to run all tests after the software is installed
+- cm.py - use to construct a confusion matrix
+- lr.py - use to get the best learning rate for the data
 ```
-# Example
-
-# Step 1
-# Step 2
+python cm.py
 ```
 
 ## Run Inference
-- Include instructions on how to run inference
-- i.e. image classification on a single image for a CNN deep learning project
+- infer.py - classification on a single image 
 ```
-# Example
-
-# Step 1
-# Step 2
-```
-
-## Build Model
-- Include instructions of how to build the model
-- This can be done either locally or on the cloud
-```
-# Example
-
-# Step 1
-# Step 2
+python infer.py
 ```
 
 ## Serve Model
-- Include instructions of how to set up a REST or RPC endpoint 
-- This is for running remote inference via a custom model
+- Two serving endpoints: Android and Flask
 ```
 # Example
 
-# Step 1
-# Step 2
 ```
 
 ## Analysis
