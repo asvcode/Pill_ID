@@ -10,7 +10,7 @@ def train():
     
     aug_tfms = [RandomDihedral(), RandomLighting(0.2, 1.8)]
 
-    arch = resnet18
+    arch = resnet152
     sz = 32
     bs = 64
     tfms = tfms_from_model(arch, sz, aug_tfms)
