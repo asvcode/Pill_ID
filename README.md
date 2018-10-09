@@ -73,11 +73,11 @@ python infer.py
 
 ## Accurate
 <div align="center">
-  <img src="static/yellow_accurate.png" width="700" height="231">
+  <img src="static/yellow_accurate.png" width="800" height="231">
 </div align>
 
 ## Inaccurate
 <div align="center">
-  <img src="static/yellow_incorrect.png" width="700" height="231">
+  <img src="static/yellow_incorrect.png" width="800" height="231">
 </div align>
 
