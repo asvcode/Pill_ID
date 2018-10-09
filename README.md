@@ -24,10 +24,10 @@ Patients particularly those over 50 are more likely to be prescribed more pills,
 - **static** : README content and images
 
 ## Installation
-Requirements for this project can be installed by creating the required environment using the 'requirements.yml' file
+Requirements for this project can be installed by creating the required environment using the `pillid.yml` file
 
 ```
-conda env create -f requirements.yml 
+conda env create -f pillid.yml 
 ```
 
 ## Requisites
