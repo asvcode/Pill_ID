@@ -1,5 +1,5 @@
-# Pill Identifier
-Framework for machine learning projects at Insight Data Science. 
+# Pill Identifier - Pill_ID
+Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
 
 ## Motivation for this project format:
 - **src** : Put all source code for production within structured directory
