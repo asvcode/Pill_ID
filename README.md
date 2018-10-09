@@ -1,8 +1,7 @@
 # Pill Identifier - Pill_ID
 Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
 
-![](static/slide_one.jpg){:height="100px" width="411px"}
-<img src="static/slide_one.jpg" width="100" height="100">
+<img src="static/slide_one.jpg" width="100" height="411">
 
 ## Motivation for this project format:
 - **src** : Put all source code for production within structured directory
