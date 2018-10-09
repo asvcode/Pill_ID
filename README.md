@@ -62,10 +62,6 @@ python infer.py
 
 ## Serve Model
 - Two serving endpoints: Android and Flask
-```
-# Example
-
-```
 
 ## Analysis
 - Data augmentation using Random Dihyedral and adjusting balance and contract
@@ -77,20 +73,11 @@ python infer.py
 
 ## Accurate
 <div align="center">
-  <img src="static/yellow_accurate.png" width="500" height="231">
+  <img src="static/yellow_accurate.png" width="700" height="231">
 </div align>
 
 ## Inaccurate
 <div align="center">
-  <img src="static/yellow_inaccurate.png" width="500" height="231">
+  <img src="static/yellow_incorrect.png" width="700" height="231">
 </div align>
 
-
-
-- And/or include benchmarking of the model and results
-```
-# Example
-
-# Step 1
-# Step 2
-```
