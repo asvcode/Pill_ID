@@ -1,6 +1,6 @@
 # Pill Identifier - Pill_ID
 <div align="center">
-Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
+Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input the pill characteristics such as shape, color and imprint.
   
 </div align>
 <div align="center">
@@ -23,22 +23,11 @@ Patients particularly those over 50 are more likely to be prescribed more pills,
 - **Flask** : Code for Flask deployment
 - **static** : README content and images
 
-## Setup
-Clone repository and update python path
+## Installation
+Requirements for this project can be installed by creating the required environment using the 'requirements.yml' file
+
 ```
-repo_name=Insight_Project_Framework # URL of your new repository
-username=mrubash1 # Username for your personal github account
-git clone https://github.com/$username/$repo_name
-cd $repo_name
-echo "export $repo_name=${PWD}" >> ~/.bash_profile
-echo "export PYTHONPATH=$repo_name/src:${PYTHONPATH}" >> ~/.bash_profile
-source ~/.bash_profile
-```
-Create new development branch and switch onto it
-```
-branch_name=dev-readme_requisites-20180905 # Name of development branch, of the form 'dev-feature_name-date_of_creation'}}
-git checkout -b $branch_name
-git push origin $branch_name
+conda env create -f requirements.yml 
 ```
 
 ## Requisites
