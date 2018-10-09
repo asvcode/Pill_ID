@@ -1,10 +1,12 @@
 # Pill Identifier - Pill_ID
 <div align="center">
 Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
+  
 </div align>
 <div align="center">
   <img src="static/slide_one.jpg" width="200" height="411">
 </div align>
+
 
 Screenshot from the National Library of Medicine Pillbox pill identifier portal (https://pillbox.nlm.nih.gov/) that shows the current drop down menu for identifying pills.  There is no option for using pictures to help pre-populate the fields.
 
