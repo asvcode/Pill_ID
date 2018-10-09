@@ -1,15 +1,17 @@
 # Pill Identifier - Pill_ID
 Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
 
-<img src="static/slide_one.jpg" width="100" height="411">
+<img src="static/slide_one.jpg" width="200" height="411">
+Screenshot from the NIH Pillbox pill identifier portal that shows the current drop down menu for identifying pills.  There is no option for using pictures to help pre-populate the fields.
 
-## Motivation for this project format:
-- **src** : Put all source code for production within structured directory
-- **tests** : Put all source code for testing in an easy to find location
-- **configs** : Enable modification of all preset variables within single directory (consisting of one or many config files for separate tasks)
-- **data** : Include example a small amount of data in the Github repository so tests can be run to validate installation
-- **build** : Include scripts that automate building of a standalone environment
-- **static** : Any images or content to include in the README or web framework if part of the pipeline
+## Project format:
+
+- **src** : Source code
+- **tests** : Test model on specific image
+- **data** : Example data
+- **Android** : Code for Android deployment
+- **Flask** : Code for Flask deployment
+- **static** : README content and images
 
 ## Setup
 Clone repository and update python path
