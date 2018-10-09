@@ -70,7 +70,7 @@ python infer.py
 ## Analysis
 - Data augmentation using Random Dihyedral and adjusting balance and contract
 <div align="center">
-  <img src="static/slide_one.jpg" width="200" height="411">
+  <img src="static/augs.png" width="500" height="231">
 </div align>
 
 
