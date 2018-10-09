@@ -73,6 +73,11 @@ python infer.py
   <img src="static/augs.png" width="500" height="231">
 </div align>
 
+- Results showing most accurate and least accurate yellow pills
+<div align="center">
+  <img src="static/yellow-accurate.png" width="500" height="231">
+</div align>
+
 
 
 - And/or include benchmarking of the model and results
