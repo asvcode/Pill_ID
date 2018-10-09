@@ -49,6 +49,7 @@ python train.py
 ## Test
 - cm.py - use to construct a confusion matrix
 - lr.py - use to get the best learning rate for the data
+- test.py - use this to test a pretrained model and set thresholds
 ```
 python cm.py
 ```
@@ -67,7 +68,13 @@ python infer.py
 ```
 
 ## Analysis
-- Include some form of EDA (exploratory data analysis)
+- Data augmentation using Random Dihyedral and adjusting balance and contract
+<div align="center">
+  <img src="static/slide_one.jpg" width="200" height="411">
+</div align>
+
+
+
 - And/or include benchmarking of the model and results
 ```
 # Example
