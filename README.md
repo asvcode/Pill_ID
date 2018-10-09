@@ -1,6 +1,8 @@
 # Pill Identifier - Pill_ID
 Project for identifying prescription pills.  Current methods utitilize a drop down method where the user has to manually input into the pill characteristics such as shape, color, imprint.
 
+![](static/slide_one.jpg) 
+
 ## Motivation for this project format:
 - **src** : Put all source code for production within structured directory
 - **tests** : Put all source code for testing in an easy to find location
