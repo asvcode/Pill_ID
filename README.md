@@ -37,9 +37,9 @@ conda env create -f pillid.yml
 
 ## Source Code
 - train.py - train the data using the following parameters:
-  - Learning rate of 0.01
-  - Random Dihedral data augmentation
-  - Random Balance=0.2 and Contrast=0.8 data augmentation
+  - Learning rate of 0.01 (please view lr.py under Test as to why this learning rate was chosen)
+  - Random Dihedral data augmentation (please view under analysis below)
+  - Random Balance=0.2 and Contrast=0.8 data augmentation (please view under analysis below)
   - dropout = 0.25
   
 ```
@@ -50,9 +50,11 @@ python train.py
 - cm.py - use to construct a confusion matrix
 - lr.py - use to get the best learning rate for the data
 <div align="center">
-  <img src="static/LR1.png" width="300" height="205">
   <img src="static/LR2.png" width="300" height="205">
+  <img src="static/LR1.png" width="300" height="205">
 </div align>
+
+When we compare the validation loss against the log learning rate (for an inital test set) we can see that the best learning rate is just prior to the curve leveling off at the bottom, in this case 0.01
 
 
 - test.py - use this to test a pretrained model and set thresholds
