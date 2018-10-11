@@ -49,6 +49,12 @@ python train.py
 ## Test
 - cm.py - use to construct a confusion matrix
 - lr.py - use to get the best learning rate for the data
+<div align="center">
+  <img src="static/LR1.png" width="300" height="205">
+  <img src="static/LR2.png" width="300" height="205">
+</div align>
+
+
 - test.py - use this to test a pretrained model and set thresholds
 ```
 python cm.py
@@ -62,22 +68,29 @@ python infer.py
 
 ## Serve Model
 - Two serving endpoints: Android and Flask
+<div align="center">
+  <img src="static/mobile_one.jpg" width="300" height="400">
+  <img src="static/mobile_two.jpg" width="300" height="400">
+</div align>
 
 ## Analysis
-- Data augmentation using Random Dihyedral and adjusting balance and contract
+- Data augmentation using Random Dihyedral (this rotates the image by 90 degrees and/or flips images and adjusting balance and contract (this was to mimic images taken with a cell phone)
 <div align="center">
   <img src="static/augs.png" width="500" height="231">
 </div align>
 
-- Results showing most accurate and least accurate yellow pills
+- Results showing most accurate and least accurate yellow pills - This is representative of the images from the NLM database that are high resolution and sourced from the manufacturer.  These however are not the type of pictures that would be taken by an end user
 
 ## Accurate
 <div align="center">
   <img src="static/yellow_accurate.png" width="800" height="231">
 </div align>
 
+- The most inaccurate predictions predominantly refer to images from the custom database and are most representative of images that may be taken by an end user
+
 ## Inaccurate
 <div align="center">
   <img src="static/yellow_incorrect.png" width="800" height="231">
 </div align>
+
 
