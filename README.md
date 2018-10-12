@@ -71,8 +71,8 @@ python infer.py
 ## Serve Model
 - Two serving endpoints: Android and Flask
 <div align="center">
-  <img src="static/mobile_one.png" width="300" height="400">
-  <img src="static/mobile_two.jpg" width="300" height="400">
+  <img src="static/mobile_one.png" width="200" height="266">
+  <img src="static/mobile_two.png" width="200" height="266">
 </div align>
 
 ## Analysis
@@ -85,14 +85,14 @@ python infer.py
 
 ## Accurate
 <div align="center">
-  <img src="static/yellow_accurate.png" width="800" height="231">
+  <img src="static/yellow_accurate.png" width="700" height="190">
 </div align>
 
 - The most inaccurate predictions predominantly refer to images from the custom database and are most representative of images that may be taken by an end user
 
 ## Inaccurate
 <div align="center">
-  <img src="static/yellow_incorrect.png" width="800" height="231">
+  <img src="static/yellow_incorrect.png" width="700" height="190">
 </div align>
 
 
