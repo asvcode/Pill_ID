@@ -4,7 +4,7 @@ Project for identifying prescription pills.  Current methods utitilize a drop do
   
 </div align>
 <div align="center">
-  <img src="static/slide_one.jpg" width="200" height="411">
+  <img src="static/intro.png" width="500" height="281">
 </div align>
 
 
@@ -71,7 +71,7 @@ python infer.py
 ## Serve Model
 - Two serving endpoints: Android and Flask
 <div align="center">
-  <img src="static/mobile_one.jpg" width="300" height="400">
+  <img src="static/mobile_one.png" width="300" height="400">
   <img src="static/mobile_two.jpg" width="300" height="400">
 </div align>
 
