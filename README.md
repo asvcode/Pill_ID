@@ -10,6 +10,8 @@ Project for identifying prescription pills.  Current methods utitilize a drop do
 
 Pillbox from the National Library of Medicine is a pill identifier portal that is representative of what is currently available in terms of identifying pills (https://pillbox.nlm.nih.gov/) It shows the use of the drop down menu.  There is no option for using pictures to help pre-populate the fields.
 
+You can access the link to the presentation deck here: https://goo.gl/ooGMRr
+
 ## Motivation
 
 Patients particularly those over 50 are more likely to be prescribed more prescriptions, are more likely to store their medication in pill boxes, are more likely to have dexterity issues and may also have issues with eyesight.  This project is looking at a way to improve efficiency and accuracy by using images to help pre-populate input fields.
