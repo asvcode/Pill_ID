@@ -91,18 +91,39 @@ python infer.py
   <img src="static/cm_one.png" width="300" height="260">
 </div align>
 
-- Results showing most accurate and least accurate yellow pills - This is representative of the images from the NLM database that are high resolution and sourced from the manufacturer.  These however are not the type of pictures that would be taken by an end user
+- Results showing most accurate and least accurate with respect to color.  The images that had the strongest color predictions are representative of images from the NLM database which are predominantly high resolution and sourced from the manufacturer.  These however are not representative of pictures that would be taken by an end user.
 
 ## Accurate
+### Yellow
 <div align="center">
-  <img src="static/yellow_accurate.png" width="700" height="190">
+  <img src="static/yellow_accurate.png" width="600" height="162">
 </div align>
 
-- The most inaccurate predictions predominantly refer to images from the custom database and are most representative of images that may be taken by an end user
+### Green
+<div align="center">
+  <img src="static/green_accurate.png" width="600" height="162">
+</div align>
+
+### White
+<div align="center">
+  <img src="static/white_accurate.png" width="600" height="162">
+</div align>
+
 
 ## Inaccurate
+### Yellow
 <div align="center">
-  <img src="static/yellow_incorrect.png" width="700" height="190">
+  <img src="static/yellow_incorrect.png" width="600" height="162">
+</div align>
+
+### Green
+<div align="center">
+  <img src="static/green_inaccurate.png" width="600" height="162">
+</div align>
+
+### White
+<div align="center">
+  <img src="static/white_inaccurate.png" width="600" height="162">
 </div align>
 
 
