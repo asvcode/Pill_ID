@@ -69,10 +69,10 @@ python infer.py
 ```
 
 ## Serve Model
-- Two serving endpoints: Android and Flask
+- Two serving endpoints: Android
 <div align="center">
-  <img src="static/mobile_one.png" width="200" height="266">
-  <img src="static/mobile_two.png" width="200" height="266">
+  <img src="static/mobile_one.png" width="150" height="199">
+  <img src="static/mobile_two.png" width="150" height="199">
 </div align>
 
 ## Analysis
