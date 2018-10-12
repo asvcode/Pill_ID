@@ -24,6 +24,8 @@ def train():
     wd=5e-4
 
     learn.fit(0.01, 1, cycle_len=1, cycle_mult=2, wds=wd)
+    
+    learn.fit(0.01, 3, cycle_len=1, cycle_mult=2, wds=wd)
 
 if __name__ == "__main__":
     train()
