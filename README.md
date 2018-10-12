@@ -88,7 +88,7 @@ python infer.py
 
 - Confusion matrix with respect to shape
 <div align="center">
-  <img src="static/cm_one.png" width="300" height="260">
+  <img src="static/con_one.png" width="300" height="260">
 </div align>
 
 - Results showing most accurate and least accurate with respect to color.  The images that had the strongest color predictions are representative of images from the NLM database which are predominantly high resolution and sourced from the manufacturer.  These however are not representative of pictures that would be taken by an end user.
