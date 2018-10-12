@@ -78,7 +78,7 @@ python infer.py
 ## Analysis
 - Data augmentation using Random Dihyedral (this rotates the image by 90 degrees and/or flips images and adjusting balance and contract (this was to mimic images taken with a cell phone)
 <div align="center">
-  <img src="static/augs.png" width="500" height="231">
+  <img src="static/augs.png" width="600" height="278">
 </div align>
 
 - Confusion matrix with respect to color representing 13 predicted labels on the x-axis and 13 true labels on the y-axis
